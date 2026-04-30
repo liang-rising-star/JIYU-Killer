@@ -2,11 +2,20 @@
 
 本程序是一个后台运行的托盘程序，运行后会自动查杀极域电子教室相关进程。
 
+## 程序原理
+
+程序运行后会：
+- 在系统托盘显示图标，伪装成极域电子教室
+- 自动定时查杀极域电子教室相关进程
+- 退出时无论输入什么密码都能正常退出，密码会自动保存到 `data.json` 文件
+
+---
+
 ## 使用方式
 
 1. **运行程序**：双击 `JIYU-killer.exe` 即可运行
 2. **管理员模式**：建议右键以管理员身份运行，可获得更强力查杀能力
-3. **退出程序**：点击托盘图标 → 设置/退出 → 输入密码（默认密码：`123456`）
+3. **退出程序**：点击托盘图标 → 设置/退出 → 输入任意密码即可退出
 
 ---
 
@@ -14,18 +23,18 @@
 
 | 版本名称 | 文件名 | 体积 | .NET 运行时 | 适用场景 |
 | -------- | ------ | ---- | ----------- | -------- |
-| **Release 版** | `JIYU-killer.exe` | ~75MB | ❌ 不需要 | 官方稳定版，推荐使用 |
-| **Publish Self-contained 版** | `JIYU-killer.exe` | ~75MB | ❌ 不需要 | 自包含运行时，兼容性最好 |
+| **Portable 版（推荐）** | `JIYU-killer.exe` | ~75MB | ❌ 不需要 | 便携版，插U盘就能用 |
+| **Setup 版（推荐）** | `JIYU-Killer-Setup.exe` | ~75MB | ❌ 不需要 | 安装版，一键安装 |
+| **Release 版** | `JIYU-killer.exe` | ~75MB | ❌ 不需要 | 官方稳定版 |
+| **Publish Self-contained 版** | `JIYU-killer.exe` | ~75MB | ❌ 不需要 | 自包含运行时 |
 | **Publish 版** | `JIYU-killer.exe` | ~500KB | ✅ 需要 .NET 8 | 框架依赖版，体积小巧 |
 | **Framework 版** | `JIYU-killer.exe` | ~500KB | ✅ 需要 .NET 8 | 体积小巧，适合已安装 .NET 的电脑 |
-| **Portable 版** | `JIYU-killer.exe` | ~75MB | ❌ 不需要 | 便携版，插U盘就能用 |
-| **Setup 版** | `JIYU-Killer-Setup.exe` | ~75MB | ❌ 不需要 | 安装版，适合需要安装向导的用户 |
 
 ---
 
 ## 各版本特性说明
 
-- **Release / Publish Self-contained / Portable / Setup**：自包含版本，无需安装任何依赖，下载即可运行
+- **Portable / Setup / Release / Publish Self-contained**：自包含版本，无需安装任何依赖，下载即可运行
 - **Publish / Framework**：框架依赖版本，体积小但需要目标电脑已安装 .NET 8 运行时
 
 ---
@@ -33,7 +42,7 @@
 ## 注意事项
 
 - 首次运行建议以管理员身份运行
-- 退出密码默认为 `123456`，退出后会自动保存到 `data.json`
+- 退出时输入任意密码均可退出，密码会自动保存到 `data.json`
 
 ---
 
