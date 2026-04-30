@@ -14,6 +14,9 @@ publish_selfcontained/
 *.swp
 *.swo
 
+# Trae
+.trae/
+
 # Build results
 [Dd]ebug/
 [Rr]elease/
