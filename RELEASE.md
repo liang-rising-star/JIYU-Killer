@@ -15,8 +15,8 @@
 | 版本名称 | 文件名 | 体积 | .NET 运行时 | 适用场景 |
 | -------- | ------ | ---- | ----------- | -------- |
 | **Release 版** | `JIYU-killer.exe` | ~75MB | ❌ 不需要 | 官方稳定版，推荐使用 |
-| **Publish 版** | `JIYU-killer.exe` | ~75MB | ❌ 不需要 | 发布版本，功能完整 |
 | **Publish Self-contained 版** | `JIYU-killer.exe` | ~75MB | ❌ 不需要 | 自包含运行时，兼容性最好 |
+| **Publish 版** | `JIYU-killer.exe` | ~500KB | ✅ 需要 .NET 8 | 框架依赖版，体积小巧 |
 | **Framework 版** | `JIYU-killer.exe` | ~500KB | ✅ 需要 .NET 8 | 体积小巧，适合已安装 .NET 的电脑 |
 | **Portable 版** | `JIYU-killer.exe` | ~75MB | ❌ 不需要 | 便携版，插U盘就能用 |
 | **Setup 版** | `JIYU-Killer-Setup.exe` | ~75MB | ❌ 不需要 | 安装版，适合需要安装向导的用户 |
@@ -25,9 +25,8 @@
 
 ## 各版本特性说明
 
-- **Release / Publish / Publish Self-contained / Portable**：功能相同，都是自包含版本，无需安装任何依赖，下载即可运行
-- **Framework**：体积最小，但需要目标电脑已安装 .NET 8 运行时
-- **Setup**：带安装程序，适合不熟悉电脑操作的用户
+- **Release / Publish Self-contained / Portable / Setup**：自包含版本，无需安装任何依赖，下载即可运行
+- **Publish / Framework**：框架依赖版本，体积小但需要目标电脑已安装 .NET 8 运行时
 
 ---
 
