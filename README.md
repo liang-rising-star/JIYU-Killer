@@ -12,7 +12,7 @@
 [![C#](https://img.shields.io/badge/C%23-12.0-blue?style=for-the-badge)](https://docs.microsoft.com/zh-cn/dotnet/csharp/)
 [![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge)](https://www.microsoft.com/windows/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/JIYU-Killer?color=yellow\&style=for-the-badge)](https://github.com/JIYU-Killer)
+[![Stars](https://img.shields.io/github/stars/JIYU-Killer?color=yellow\&style=for-the-badge)](https://github.com/liang-rising-star)
 [![Downloads](https://img.shields.io/github/downloads/JIYU-Killer/total?color=orange\&style=for-the-badge)](https://github.com/liang-rising-star/JIYU-Killer)
 
 ***
